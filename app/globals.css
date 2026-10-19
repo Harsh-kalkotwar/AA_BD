@@ -1,0 +1,38 @@
+:root {
+  --color-light-lilac: #E9E7F2;
+  --color-cosmic-orchid: #2C3E50;
+  --color-regal-purple: #5E2A8C;
+  --color-bg-dark: #090A10;
+  --color-surface-glass: rgba(44, 62, 80, 0.35);
+  --color-border-glass: rgba(233, 231, 242, 0.18);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: var(--color-bg-dark);
+  color: var(--color-light-lilac);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}

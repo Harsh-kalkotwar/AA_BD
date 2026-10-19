@@ -1,0 +1,23 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Node.js / Next.js
+node_modules/
+.next/
+out/
+
+# System files
+.DS_Store
+
+# Build files
+dist/
+build/
+coverage/
